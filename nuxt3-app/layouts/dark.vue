@@ -1,14 +1,14 @@
 <template>
-  <div class="layout">
+  <div class="layout2">
     <TheHeader />
-    我是layoutDefault
+    我是layoutDark
     <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: "default"
+  name: "dark"
 }
 </script>
 
