@@ -1,7 +1,5 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage></NuxtPage>
-    <NuxtLink to="/">首页</NuxtLink>
-    <NuxtLink to="/admin">admin</NuxtLink>
-  </div>
+  </NuxtLayout>
 </template>
