@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="adminPage">
   <h1>我是admin</h1>
 </div>
 </template>
