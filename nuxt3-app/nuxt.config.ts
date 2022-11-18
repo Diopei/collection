@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     css: [
         // SCSS file in the project
-        '~/assets/css/main.scss'
+        '~/assets/css/main.scss',
+        '~/assets/css/locomotive.css'
     ],
 })
