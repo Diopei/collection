@@ -3,7 +3,6 @@ import { defineNuxtPlugin } from "#app";
 import LocomotiveScroll from 'locomotive-scroll';
 import '~/assets/css/locomotive.css'
 
-// @ts-ignore
 const scroll = new LocomotiveScroll({
     el: document.querySelector("#scroll-zone"),
     smooth: true,
