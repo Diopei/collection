@@ -1,6 +1,7 @@
 <template>
   <div class="layout">
     <TheHeader />
+    <TheBackGround />
     我是layoutDefault
     <slot />
   </div>
