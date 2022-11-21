@@ -1,8 +1,6 @@
 <template>
   <div class="layout">
     <TheHeader />
-    <LineBackground />
-    我是layoutDefault
     <slot />
   </div>
 </template>
