@@ -1,5 +1,8 @@
 @import "lineSvg";
 .layout{
+  .nav{
+    display: none;
+  }
   .homePage{
 
   }
@@ -12,6 +15,7 @@
 }
 
 body {
+  margin: 0;
   font-family: termina, sans-serif;
   color: var(--text-color);
   background: var(--bg-color);
@@ -87,6 +91,8 @@ h2 {
 }
 
 .pin-wrap {
+  background-color: #ffffff;
+  color: #111;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
