@@ -3,21 +3,21 @@
     <div class="container">
       <section class="wellcome" data-bgcolor="#bcb8ad" data-textcolor="#032f35">
         <LineBackground />
-        <h1 data-scroll data-scroll-speed="1"><span>Horizontal</span> <span>scroll</span> <span>section</span></h1>
-        <p data-scroll data-scroll-speed="2" data-scroll-delay="0.2">with GSAP ScrollTrigger & Locomotive Scroll</p>
+        <h1 data-scroll data-scroll-speed="1"><span>Welcome</span> <span>to my</span> <span>Personal Website</span></h1>
+        <p data-scroll data-scroll-speed="2" data-scroll-delay="0.2">using by Nuxt3</p>
       </section>
 
       <section id="sectionPin">
         <div class="pin-wrap">
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+          <h2>Like most front-end engineers, I have experienced generations without RWD, starting from traditional development, experiencing the separation of front and back ends, and still learning new technologies</h2>
           <img src="https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900" alt="">
           <img src="https://images.pexels.com/photos/3371358/pexels-photo-3371358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900" alt="">
           <img src="https://images.pexels.com/photos/3618545/pexels-photo-3618545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900" alt="">
 
         </div>
       </section>
-      <section class="section-three" data-bgcolor="#e3857a" data-textcolor="#f1dba7"><img src="https://images.pexels.com/photos/4791474/pexels-photo-4791474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-        <h2 data-scroll data-scroll-speed="1" class="credit"><a href="#" target="_blank">Made by Diopei</a></h2>
+      <section class="section-three" data-bgcolor="#e3857a" data-textcolor="#f1dba7">
+        <profile-card />
       </section>
     </div>
 
