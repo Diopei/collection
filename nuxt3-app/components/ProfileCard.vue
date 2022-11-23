@@ -28,21 +28,21 @@
         <div class="card-content">
           <div class="card-subtitle">WORK EXPERIENCE</div>
           <div class="card-timeline">
-            <div class="card-item" data-year="2014">
-              <div class="card-item-title">Front-end Developer at <span>JotForm</span></div>
-              <div class="card-item-desc">Disrupt stumptown retro everyday carry unicorn.</div>
-            </div>
             <div class="card-item" data-year="2016">
-              <div class="card-item-title">UI Developer at <span>GitHub</span></div>
-              <div class="card-item-desc">Developed new conversion funnels and disrupt.</div>
+              <div class="card-item-title">Illustrator at <span>AAA</span></div>
+              <div class="card-item-desc">test</div>
             </div>
             <div class="card-item" data-year="2018">
-              <div class="card-item-title">Illustrator at <span>Google</span></div>
-              <div class="card-item-desc">Onboarding illustrations for App.</div>
+              <div class="card-item-title">UI Developer at <span>BBB</span></div>
+              <div class="card-item-desc">test</div>
             </div>
             <div class="card-item" data-year="2020">
-              <div class="card-item-title">Full-Stack Developer at <span>CodePen</span></div>
-              <div class="card-item-desc">Responsible for the encomposing brand expreience.</div>
+              <div class="card-item-title">Web Designer at <span>CCC</span></div>
+              <div class="card-item-desc">test</div>
+            </div>
+            <div class="card-item" data-year="2022">
+              <div class="card-item-title">Full-Stack Developer at <span>DDD</span></div>
+              <div class="card-item-desc">test</div>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                 <circle cx="12" cy="10" r="3" /></svg>
-              Algonquin Rd, Three Oaks Vintage, MI, 49128
+              Address Address
             </div>
             <div class="card-contact">
               <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -64,7 +64,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                 <path d="M22 6l-10 7L2 6" /></svg>
-              william@rocheald.com
+              diopeitw@gmail.com
             </div>
             <button class="contact-me">WORK TOGETHER</button>
           </div>
