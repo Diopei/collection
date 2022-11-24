@@ -63,8 +63,8 @@ div::before {
 }
 
 @keyframes glitch-one {
-  @for $i from 20 to 30 {
-    #{$i / 2}% {
+  @for $i from 10 to 15 {
+    #{$i}% {
       @include leftAndClip;
     }
   }
@@ -169,8 +169,8 @@ div::before {
 }
 
 @keyframes glitch-two {
-  @for $i from 40 to 50 {
-    #{$i / 2}% {
+  @for $i from 20 to 25 {
+    #{$i}% {
       @include leftAndClip;
     }
   }
