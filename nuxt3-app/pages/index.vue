@@ -16,7 +16,8 @@
 
         </div>
       </section>
-      <section class="section-three" data-bgcolor="#e3857a" data-textcolor="#f1dba7">
+      <section>
+        <GlitchArtBackground />
         <profile-card />
       </section>
     </div>
