@@ -13,7 +13,10 @@
     "sass-loader": "^10.3.1"
   },
   "dependencies": {
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@pinia/nuxt": "^0.4.6",
     "gsap": "^3.11.3",
-    "locomotive-scroll": "^4.1.4"
+    "locomotive-scroll": "^4.1.4",
+    "pinia": "^2.0.28"
   }
 }
