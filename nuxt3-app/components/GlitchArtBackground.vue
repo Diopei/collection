@@ -21,6 +21,7 @@ $imgHeight: 370;
   $top: random($imgHeight - 60);
   $bottom: $imgHeight - $top - $height;
   clip-path: inset(#{$top}px 0 #{$bottom}px);
+
   left: #{randomNum(200, -100)}px;
 }
 
