@@ -4,4 +4,8 @@ export default defineNuxtConfig({
         // SCSS file in the project
         '~/assets/css/main.scss',
     ],
+    // ... other options
+    buildModules: [
+        '@pinia/nuxt',
+    ],
 })
