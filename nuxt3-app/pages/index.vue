@@ -4,7 +4,7 @@
       <section class="wellcome" data-bgcolor="#bcb8ad" data-textcolor="#032f35">
         <LineBackground />
         <h1 data-scroll data-scroll-speed="1"><span>Welcome</span> <span>to my</span> <span>Website</span></h1>
-        <p data-scroll data-scroll-speed="2" data-scroll-delay="0.2">using Nuxt3</p>
+        <p data-scroll data-scroll-speed="2" data-scroll-delay="0.2">using Nuxt3 {{store.msg}}</p>
       </section>
 
       <section id="sectionPin">
@@ -25,10 +25,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "index"
-}
+<script setup lang="ts">
+  import { useStore } from '~/store/index'
+  const store = useStore()
 </script>
 
 <style lang="scss" scoped>
