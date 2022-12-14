@@ -3,6 +3,7 @@ export const useStore = defineStore("main", {
     //資料
     state : () => {
         return {
+            name:'Dio Pei',
             msg:'Hello Word!',
             num:0,
         }

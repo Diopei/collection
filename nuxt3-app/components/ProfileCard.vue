@@ -3,14 +3,14 @@
     <div class="card-header">
       <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
       <img class="card-avatar" src="https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" alt="avatar" />
-      <h1 class="card-fullname">Dio Pei</h1>
+      <h1 class="card-fullname">{{store.name}}</h1>
       <h2 class="card-jobtitle">Front-end Engineers</h2>
     </div>
     <div class="card-main">
       <div class="card-section is-active" id="about">
         <div class="card-content">
           <div class="card-subtitle">ABOUT</div>
-          <p class="card-desc">Hello!
+          <p class="card-desc">{{store.msg}}
           </p>
         </div>
         <div class="card-social">
@@ -106,6 +106,10 @@ export default {
 
   }
 }
+</script>
+<script setup>
+import { useStore } from '~/store/index'
+const store = useStore()
 </script>
 
 <style lang="scss" scoped>
