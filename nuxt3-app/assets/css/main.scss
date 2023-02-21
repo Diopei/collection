@@ -1,19 +1,27 @@
 @import "line";
+@import "rwd";
 :root {
   --text-color: #111;
   --bg-color: #ffffff;
 }
 .layout{
   .homePage{
+    height: 100vh;
     h1{
       font-size: 5rem;
       width: 50%;
       text-align: right;
+      @include w768max{
+        font-size: 3rem;
+      }
+      @include w576max{
+        font-size: 2rem;
+      }
     }
     h3{
       position: absolute;
       bottom: 0;
-      right: 3rem;
+      right: 5%;
     }
   }
 }
