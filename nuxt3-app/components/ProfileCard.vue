@@ -94,7 +94,6 @@ export default {
 
 .card {
   max-width: 340px;
-  margin: auto;
   overflow-y: auto;
   position: relative;
   z-index: 1;
@@ -105,7 +104,7 @@ export default {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
-  margin-top: 30vh;
+  margin: 15vh auto auto auto;
 }
 
 .card[data-state="#about"] {
