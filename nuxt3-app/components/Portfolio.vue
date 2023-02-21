@@ -5,7 +5,7 @@
               '--swiper-navigation-color': '#fff',
               '--swiper-pagination-color': '#fff'
             }"
-            :mousewheel="true"
+            :mousewheel="false"
             :effect="'fade'"
             :modules="modules"
             direction="vertical"
