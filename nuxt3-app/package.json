@@ -18,6 +18,7 @@
     "gsap": "^3.11.3",
     "locomotive-scroll": "^4.1.4",
     "pinia": "^2.0.28",
-    "swiper": "^9.0.5"
+    "swiper": "^9.0.5",
+    "vue-awesome-swiper": "^5.0.1"
   }
 }
