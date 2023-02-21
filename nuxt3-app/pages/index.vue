@@ -6,6 +6,7 @@
 </div>
 <GlitchArtBackground></GlitchArtBackground>
 <ProfileCard></ProfileCard>
+<Portfolio></Portfolio>
 </template>
 
 <script>

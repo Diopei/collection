@@ -2,19 +2,19 @@
   <svg class="animated-lines" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
     <defs>
       <linearGradient class="forNow" id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="auto" style="stop-color:rgb(58, 205, 45);stop-opacity:0.4">
+        <stop style="stop-color:rgb(58, 205, 45);stop-opacity:0.4">
           <animate attributeName="offset" values="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1;1.1;1;0.9;0.8;0.7;0.6;0.5;0.4;0.3;0.2;0.1;0" dur="10s" repeatCount="indefinite" />
         </stop>
-        <stop offset="auto" style="stop-color:rgb(32, 113, 206);stop-opacity:0.4">
+        <stop style="stop-color:rgb(32, 113, 206);stop-opacity:0.4">
           <animate attributeName="offset" values="0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1;1.1;1;0.9;0.8;0.7;0.6;0.5;0.4;0.3;0.2" dur="10s" repeatCount="indefinite" />
         </stop>
-        <stop offset="auto" style="stop-color:rgb(213, 193, 11);stop-opacity:0.4">
+        <stop style="stop-color:rgb(213, 193, 11);stop-opacity:0.4">
           <animate attributeName="offset" values="0.4;0.5;0.6;0.7;0.8;0.9;1;1.1;1;0.9;0.8;0.7;0.6;0.5;0.4" dur="10s" repeatCount="indefinite" />
         </stop>
-        <stop offset="auto" style="stop-color:rgb(231, 25, 250);stop-opacity:0.4">
+        <stop style="stop-color:rgb(231, 25, 250);stop-opacity:0.4">
           <animate attributeName="offset" values="0.6;0.7;0.8;0.9;1;1.1;1;0.9;0.8;0.7;0.6" dur="10s" repeatCount="indefinite" />
         </stop>
-        <stop offset="auto" style="stop-color:rgb(208, 15, 15);stop-opacity:0.4">
+        <stop style="stop-color:rgb(208, 15, 15);stop-opacity:0.4">
           <animate attributeName="offset" values="0.8;0.9;1;1.1;1;0.9;0.8" dur="10s"  repeatCount="indefinite" />
         </stop>
       </linearGradient>
