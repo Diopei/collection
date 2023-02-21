@@ -1,6 +1,19 @@
-
+@import "line";
+:root {
+  --text-color: #111;
+  --bg-color: #ffffff;
+}
 .layout{
   .homePage{
-    background-color: red;
+    h1{
+      font-size: 5rem;
+      width: 50%;
+      text-align: right;
+    }
+    h3{
+      position: absolute;
+      bottom: 0;
+      right: 3rem;
+    }
   }
 }

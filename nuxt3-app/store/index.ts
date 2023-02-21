@@ -3,7 +3,9 @@ import { defineStore, _ActionsTree, _GettersTree } from "pinia";
 export const useStore = defineStore("main", {
     state : () => {
         return {
-            msg:'Hello Word!'
+            welcome:'Welcome to my Website',
+            msg:'Like most front-end engineers, I have experienced generations without RWD, starting from traditional development, experiencing the separation of front and back ends, and still learning new technologies',
+            name:'Dio Pei'
         }
     },
     actions: {},

@@ -1,7 +1,8 @@
 <template>
 <div class="homePage">
-  <h1>我是首頁{{store.msg}}</h1>
-  <img src="~/assets/images/dd.jpg" />
+  <LineBackground />
+  <h1>{{store.welcome}}</h1>
+  <h3>use Nuxt3 by {{store.name}}</h3>
 </div>
 </template>
 

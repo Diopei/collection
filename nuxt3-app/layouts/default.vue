@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <TheHeader />
-    我是layoutDefault
+<!--    我是layoutDefault-->
     <slot />
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
-    <NuxtLink to="/">首页</NuxtLink>
-    <NuxtLink to="/admin">admin</NuxtLink>
+<!--    <NuxtLink to="/">首页</NuxtLink>-->
+<!--    <NuxtLink to="/admin">admin</NuxtLink>-->
   </div>
 </template>
 
