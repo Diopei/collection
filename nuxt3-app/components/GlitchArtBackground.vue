@@ -10,7 +10,7 @@ export default {
 
 <style lang="scss" scoped>
 $img: "@/assets/images/cyberpunk.jpg";
-$imgHeight: 370;
+$imgHeight: 100vh;
 
 @function randomNum($max, $min: 0, $u: 1) {
   @return ($min + random($max)) * $u;
@@ -35,20 +35,21 @@ body {
 div {
   position: absolute;
   width: 100%;
-  height: 370px;
+  height: 100vh;
   background-image: url($img);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: -8px;
   //animation: main-img-hide 16s infinite step-end;
 }
 
 div::before,
 div::after {
   position: absolute;
-  width: 658px;
-  height: 370px;
-  top: 0;
-  left: 0;
+  width: 50%;
+  height: 50vh;
+  top: 20%;
+  left: 50%;
   background: inherit;
 }
 
