@@ -10,8 +10,11 @@
     margin-bottom: -4%;
     h1{
       font-size: 5rem;
-      width: 50%;
+      width: 30%;
       text-align: right;
+      @include w1920max{
+        width: 50%;
+      }
       @include w768max{
         font-size: 3rem;
       }
@@ -21,16 +24,38 @@
     }
     h3{
       position: absolute;
-      bottom: 0;
+      bottom: 5%;
       right: 5%;
     }
   }
   .portfolio{
     margin-top: 33vh;
     height: 100vh;
-    background-color: #36e4da;
     display: flex;
     justify-content: center;
     align-items: center;
+    .swiper{
+      max-height: 700px;
+      background-color: #000;
+      position: relative;
+      .slide{
+        .info{
+          padding: 1rem;
+          color: #fff;
+          position: absolute;
+          bottom:0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          .link{
+            color: white;
+          }
+        }
+      }
+      .swiper-pagination-bullet{
+        border-radius: 0;
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 }
