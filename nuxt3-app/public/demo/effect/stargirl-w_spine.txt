@@ -1,0 +1,38 @@
+stargirl-w_spine.png
+	size: 2048, 512
+	filter: Linear, Linear
+	pma: true
+LL
+	bounds: 898, 7, 190, 190
+MS
+	bounds: 1223, 24, 115, 109
+	rotate: 90
+O
+	bounds: 472, 155, 354, 171
+	rotate: 90
+P1
+	bounds: 1090, 8, 67, 82
+	rotate: 90
+P2
+	bounds: 1334, 43, 75, 96
+SS
+	bounds: 1221, 274, 235, 222
+	rotate: 90
+U1
+	bounds: 645, 25, 172, 251
+	rotate: 90
+girl
+	bounds: 2, 29, 468, 480
+st1
+	bounds: 645, 199, 310, 302
+	rotate: 90
+st2
+	bounds: 949, 210, 299, 270
+	rotate: 90
+star_LU
+	bounds: 1090, 77, 131, 131
+star_LU_L
+	bounds: 1223, 141, 131, 131
+star_LU_L2
+	bounds: 472, 2, 151, 135
+	rotate: 90
