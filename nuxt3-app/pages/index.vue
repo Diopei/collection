@@ -7,6 +7,9 @@
 <GlitchArtBackground></GlitchArtBackground>
 <ProfileCard></ProfileCard>
 <Portfolio></Portfolio>
+<div class="footer">
+  © 2023 Diopei All Rights Reserved.　
+</div>
 </template>
 
 <script>
