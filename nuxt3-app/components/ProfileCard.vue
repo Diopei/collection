@@ -18,21 +18,21 @@
         <div class="card-content">
           <div class="card-subtitle">WORK EXPERIENCE</div>
           <div class="card-timeline">
-            <div class="card-item" data-year="2014">
-              <div class="card-item-title">Front-end Developer at <span>JotForm</span></div>
-              <div class="card-item-desc">Disrupt stumptown retro everyday carry unicorn.</div>
+            <div class="card-item" data-year="2017">
+              <div class="card-item-title">Web designer at <span>Infinity Visual Art & System Design Company</span></div>
+              <div class="card-item-desc">Graphic design, CIS design, webpage planning, webpage art design, webpage RWD design, webpage UI&UX design, webpage dynamic function design.</div>
             </div>
-            <div class="card-item" data-year="2016">
-              <div class="card-item-title">UI Developer at <span>GitHub</span></div>
-              <div class="card-item-desc">Developed new conversion funnels and disrupt.</div>
-            </div>
-            <div class="card-item" data-year="2018">
-              <div class="card-item-title">Illustrator at <span>Google</span></div>
-              <div class="card-item-desc">Onboarding illustrations for App.</div>
+            <div class="card-item" data-year="2019">
+              <div class="card-item-title">Web designer at <span>Vigor2</span></div>
+              <div class="card-item-desc">RWD web design, barrier-free web design, Edm design, UI design, graphic design, packaging design, CIS design, label design, manual design, catalog design, document design.</div>
             </div>
             <div class="card-item" data-year="2020">
-              <div class="card-item-title">Full-Stack Developer at <span>CodePen</span></div>
-              <div class="card-item-desc">Responsible for the encomposing brand expreience.</div>
+              <div class="card-item-title">Web designer at <span>Attoeipo</span></div>
+              <div class="card-item-desc">Web design, Graphic design, UI&UX design, Front-end engineering.</div>
+            </div>
+            <div class="card-item" data-year="2022">
+              <div class="card-item-title">Front-end Developer at <span>Gangutech</span></div>
+              <div class="card-item-desc">Web Design, write Vue2-project and Vue3-project, maintain React-project.</div>
             </div>
           </div>
         </div>
@@ -42,12 +42,14 @@
           <div class="card-subtitle">CONTACT</div>
           <div class="card-contact-wrapper">
             <div class="card-contact">
-              Algonquin Rd, Three Oaks Vintage, MI, 49128
+              Rm 2, 10F, No. 153, Sec. 2, Qinghai Rd, Xitun Dist, Taichung City 407 , Taiwan (R.O.C.)
             </div>
             <div class="card-contact">
-              william@rocheald.com
+              diopeitw@gmail.com
             </div>
-            <button class="contact-me">WORK TOGETHER</button>
+            <div class="card-bottom">
+              <NuxtLink class="contact-me" to="mailto:diopeitw@gmail.com">WORK TOGETHER</NuxtLink>
+            </div>
           </div>
         </div>
       </div>
@@ -367,7 +369,7 @@ export default {
 .card-item {
   position: relative;
   padding-left: 60px;
-  padding-right: 20px;
+  padding-right: 8px;
   padding-bottom: 30px;
   z-index: 1;
   &:last-child {
@@ -436,7 +438,9 @@ export default {
     border-right: 1px solid #dfe2ec;
   }
 }
-
+.card-bottom{
+  margin-top: 10%;
+}
 .contact-me {
   border: 0;
   outline: none;
