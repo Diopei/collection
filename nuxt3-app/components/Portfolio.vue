@@ -14,14 +14,14 @@
             :pagination="{ clickable: true }"
     >
       <swiper-slide class="slide slide1">
-        <div class="info">簡介1 <NuxtLink class="link" target="_blank" to="https://google.com.tw/">look it!</NuxtLink></div>
+        <div class="info">Food Map ＿ 捷運美食地圖 <NuxtLink class="link" target="_blank" to="https://diopei.github.io/FooMap-Beta/">look it!</NuxtLink></div>
       </swiper-slide>
       <swiper-slide class="slide slide2">
-        <div class="info">簡介2</div>
+        <div class="info">博弈官方宣傳網站 ＿ 一頁式形象網站 <NuxtLink class="link" target="_blank" to="https://wudiofficalweb.web.app/">look it!</NuxtLink></div>
       </swiper-slide>
-      <swiper-slide class="slide slide3">
-        <div class="info">簡介3</div>
-      </swiper-slide>
+<!--      <swiper-slide class="slide slide3">-->
+<!--        <div class="info">簡介3</div>-->
+<!--      </swiper-slide>-->
     </swiper>
   </div>
 </template>
