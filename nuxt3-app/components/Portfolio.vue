@@ -1,5 +1,6 @@
 <template>
   <div class="portfolio">
+    <!--
     <swiper class="swiper"
             :style="{
               '--swiper-navigation-color': '#fff',
@@ -19,10 +20,20 @@
       <swiper-slide class="slide slide2">
         <div class="info">博弈官方宣傳網站 ＿ 一頁式形象網站 <NuxtLink class="link" target="_blank" to="https://wudiofficalweb.web.app/">look it!</NuxtLink></div>
       </swiper-slide>
-<!--      <swiper-slide class="slide slide3">-->
-<!--        <div class="info">簡介3</div>-->
-<!--      </swiper-slide>-->
-    </swiper>
+      <swiper-slide class="slide slide3">
+        <div class="info">簡介3</div>
+      </swiper-slide>
+    </swiper>-->
+    <div class="card-section">
+      <div class="card">
+        <img src="@/assets/images/01.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://diopei.github.io/FooMap-Beta/">Food Map ＿ 捷運美食地圖 </NuxtLink></div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/02.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://wudiofficalweb.web.app/">博弈官方宣傳網站 ＿ 一頁式形象網站 </NuxtLink></div>
+      </div>
+    </div>
   </div>
 </template>
 

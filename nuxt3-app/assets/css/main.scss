@@ -34,7 +34,7 @@ html{
     }
   }
   .portfolio{
-    margin-top: 33vh;
+    margin-top: 20vh;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -95,6 +95,48 @@ html{
         border-radius: 0;
         width: 20px;
         height: 20px;
+      }
+    }
+    .card-section{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card{
+        position: relative;
+        max-width: 300px;
+        max-height: 400px;
+        overflow: hidden;
+        margin: 1rem;
+        .info{
+          opacity: 0;
+          padding: 1rem;
+          color: #fff;
+          position: absolute;
+          bottom:0;
+          left: 0;
+          width: 100%;
+          display: flex;
+          flex-direction:column;
+          justify-content: space-between;
+          align-items: flex-start;
+          background-color: rgba(0, 0, 0, 0.9);
+          .link{
+            text-align: right;
+            padding-right: 2rem;
+            color: white;
+            text-decoration:unset;
+          }
+        }
+        img{
+          width: 100%;
+        }
+        &:hover,&:active{
+          .info{
+            transition: all .5s;
+            opacity: 1;
+          }
+        }
       }
     }
   }
