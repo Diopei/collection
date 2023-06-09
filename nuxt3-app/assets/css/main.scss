@@ -39,6 +39,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     .swiper{
       width: 100%;
       max-height: 600px;
@@ -99,9 +100,20 @@ html{
     }
     .card-section{
       width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      display: grid;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      position: absolute;
+      top: 0%;
+      height: 700px;
+      grid-template-columns: repeat(5, 1fr);
+      @include w1024max{
+        top: 15%;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @include w576max{
+        grid-template-columns: repeat(2, 1fr);
+      }
       .card{
         position: relative;
         max-width: 300px;
@@ -129,6 +141,7 @@ html{
         }
         img{
           width: 100%;
+          overflow: hidden;
         }
         &:hover,&:active{
           .info{

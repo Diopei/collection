@@ -30,6 +30,30 @@
         <div class="info"><NuxtLink class="link" target="_blank" to="https://diopei.github.io/FooMap-Beta/">Food Map ＿ 捷運美食地圖 </NuxtLink></div>
       </div>
       <div class="card">
+        <img src="@/assets/images/p1.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://greetings5427.com.tw/html/Work/Paragon_classic/">寶慶營造 ＿ 官方網站 </NuxtLink></div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/p2.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://greetings5427.com.tw/html/Work/little_blush_nail/">little_blush_nail ＿ 個人網站 </NuxtLink></div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/p3.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://greetings5427.com.tw/html/Work/greeting/">初見•寓所 ＿ 一頁式形象網站 </NuxtLink></div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/p4.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://greetings5427.com.tw/html/Work/20220109/">詠達生物科技 ＿ 一頁式形象網站 </NuxtLink></div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/p5.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://greetings5427.com.tw/html/Work/202102cm/">汝安診所 ＿ 預約網站 </NuxtLink></div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/p6.png" alt="">
+        <div class="info"><NuxtLink class="link" target="_blank" to="https://greetings5427.com.tw/html/Work/202101kds/">哈緹瑜珈生活館 ＿ 購物網站 </NuxtLink></div>
+      </div>
+      <div class="card">
         <img src="@/assets/images/02.png" alt="">
         <div class="info"><NuxtLink class="link" target="_blank" to="https://wudiofficalweb.web.app/">博弈官方宣傳網站 ＿ 一頁式形象網站 </NuxtLink></div>
       </div>
